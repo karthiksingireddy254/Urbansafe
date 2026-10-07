@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+  <!-- Shield Outer -->
+  <path d="M24 4L7 11V22C7 32.5 14.2 42.2 24 45C33.8 42.2 41 32.5 41 22V11L24 4Z" fill="#0f172a" stroke="url(#shieldGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Glowing Road inside Shield -->
+  <path d="M18 36L22 18H26L30 36H18Z" fill="#1e293b" opacity="0.8"/>
+  <path d="M24 20V34" stroke="url(#roadGrad)" stroke-width="2" stroke-dasharray="2 2" stroke-linecap="round"/>
+  <!-- Location Pin Point -->
+  <circle cx="24" cy="18" r="4.5" fill="#38bdf8" />
+  <circle cx="24" cy="18" r="2" fill="#ffffff" />
+</svg>

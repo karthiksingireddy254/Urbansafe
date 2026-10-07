@@ -1,0 +1,19 @@
+{
+  "name": "urbansafe-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Smart Urban Accident Risk Prediction & Prevention System - Visual Command Center",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test_prediction_suite.js"
+  },
+  "keywords": [
+    "smart-city",
+    "accident-risk",
+    "traffic-intelligence",
+    "ai-prediction"
+  ],
+  "author": "UrbanSafe AI Team",
+  "license": "ISC"
+}
